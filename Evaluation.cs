@@ -1,9 +1,10 @@
+using System.Reflection;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
 public class Evaluation
 {
-    public int EvaluationId { get; set; }
+    public int Id { get; set; }
     public int EmployeeId { get; set; }
     public int ManagerId { get; set; }  
     public int EvaluationTotal { get; set; }    
