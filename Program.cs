@@ -52,7 +52,7 @@ static async Task<IResult> CreateTodo(TodoItemDTO todoItemDTO, TodoDb db)
     var todoItem = new Todo
     {
         IsComplete = todoItemDTO.IsComplete,
-        FName = todoItemDTO.Name
+        FName = todoItemDTO.FName
     };
 
     db.Todos.Add(todoItem);
@@ -69,7 +69,7 @@ static async Task<IResult> UpdateTodo(int id, TodoItemDTO todoItemDTO, TodoDb db
 
     if (todo is null) return TypedResults.NotFound();
 
-    todo.Name = todoItemDTO.Name;
+    todo.FName = todoItemDTO.FName;
     todo.IsComplete = todoItemDTO.IsComplete;
 
     await db.SaveChangesAsync();
