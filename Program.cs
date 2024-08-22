@@ -14,11 +14,6 @@ builder.Services.AddOpenApiDocument(config =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
- 
-}
-
 RouteGroupBuilder todoItems = app.MapGroup("/todoitems");
 
 todoItems.MapGet("/", GetAllTodos);

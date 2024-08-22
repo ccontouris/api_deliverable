@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "c:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\ChrisitContouris\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\ChrisitContouris\\Documents\\ic_stars\\promidb\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ChrisitContouris\\AppData\\Roaming\\NuGet\\NuGet.Config",
